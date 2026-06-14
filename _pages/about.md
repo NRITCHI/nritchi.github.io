@@ -2,33 +2,41 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Mechanical and materials engineering | Computer science
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: nathan-profile.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Engineering + software</p>
+    <p><a href="mailto:nathan.ag.ritchie@gmail.com">nathan.ag.ritchie@gmail.com</a></p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Testing out setting up a personal website. This is still a work in progress. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi, I’m Nathan Ritchie. I work across mechanical systems, software, data pipelines, and manufacturing process improvement, with experience at Metro Vancouver, Rocket Lab Space Systems, and General Motors.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My background combines mechanical and materials engineering with computer science, so I’m especially interested in practical systems where code, hardware, operations, and data all have to behave in the real world. Recent work includes Power BI energy dashboards, Python data refresh pipelines, QA automation, product databases, PLC/process engineering, and embedded or GUI-based academic projects.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+You can find the structured version of my background on the [CV page]({{ '/cv/' | relative_url }}) or download the [PDF resume]({{ '/assets/pdf/Nathan_Ritchie_Resume.pdf' | relative_url }}).
+
+<div class="row mt-4">
+  <div class="col-md-6 mb-3">
+    <img src="{{ '/assets/img/nathan-mountain.jpg' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Nathan Ritchie in the mountains at sunset" style="height: 260px; object-fit: cover; width: 100%;">
+  </div>
+  <div class="col-md-6 mb-3">
+    <img src="{{ '/assets/img/nathan-brightdrop.jpg' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Nathan Ritchie standing in front of a BrightDrop vehicle" style="height: 260px; object-fit: cover; width: 100%;">
+  </div>
+</div>

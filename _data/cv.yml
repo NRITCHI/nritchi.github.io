@@ -2,96 +2,138 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Nathan A. Ritchie
+    - name: Email
+      value: <a href="mailto:nathan.ag.ritchie@gmail.com">nathan.ag.ritchie@gmail.com</a>
+    - name: Phone
+      value: <a href="tel:+16479649581">(647) 964-9581</a>
+    - name: LinkedIn
+      value: <a href="https://www.linkedin.com/in/nathan-ritchie-502b6a203/">nathan-ritchie-502b6a203</a>
+    - name: GitHub
+      value: <a href="https://github.com/NRITCHI">github.com/NRITCHI</a>
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: "Bachelor of Science: Computer Science"
+      institution: University of Western Ontario
+      year: 2022 - 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Dean's Honour List
+    - title: "Bachelor of Science: Mechanical and Materials Engineering"
+      institution: University of Western Ontario
+      year: 2019 - 2024
       description:
-        - Description 1.
-        - Description 2.
+        - Dean's Honour List
 
-- title: Experience
+- title: Summary of Qualifications
+  type: list
+  contents:
+    - Experienced in Java, Python, C/C++, MATLAB, SQL, JavaScript, and PHP.
+    - Experienced in C and UNIX-based systems.
+    - Developed Python scripts and test fixtures for quality control processes.
+    - Experienced with real-time microcontroller systems.
+    - Experience with electrical design, component selection, and PCB assembly.
+
+- title: Work Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Engineering Technician
+      institution: Metro Vancouver Regional District
+      year: October 2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developed Power BI dashboards to better communicate energy usage data, saving 10-15 hours of work weekly.
+        - Built Python data pipelines to automate data refreshes for Power BI dashboards.
+        - Applied industry-standard measurement and verification techniques to quantify performance of capital projects.
+    - title: Business Development Intern
+      institution: Rocket Lab Space Systems
+      year: May 2023 - August 2023
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Utilized Python and pandas to investigate product failure modes and refine safe operational envelope figures.
+        - Automated the development of a product database with Python using PDFQuery to gather historical data that was not centrally recorded.
+        - Developed preventative maintenance planning and automated work scheduling using Infor LN.
+    - title: Manufacturing Process Engineering Intern
+      institution: General Motors
+      year: May 2022 - December 2022
       description:
+        - Oversaw retooling of an entirely new electric vehicle body shop, including budget and roadblock management.
+        - Implemented PLC control algorithms to introduce error proofing to production, reducing downtime and improving quality.
+        - Managed the deployment of new network architecture to improve plant monitoring and control.
+        - Designed fixtures for factory retooling while balancing the needs of production, management, and engineering stakeholders.
+        - Developed LEAN manufacturing solutions for damaged parts and downtime scenarios.
+        - Managed a group of 24 tradespeople by prioritizing work, coordinating contractors, and summarizing work for the next shift.
+    - title: Engineering Intern
+      institution: Rocket Lab Space Systems
+      year: May 2021 - August 2021
+      description:
+        - Developed a laser vibrometry QA test, including concept generation, mechanical design, and data processing using Python and pandas.
+        - Developed product functional testing scripts for thermal vacuum testing.
+        - Designed and implemented complex qualification testing fixtures involving large assemblies and FEA analysis.
+        - Frequently participated in soldering and wiring harness building for flight hardware and ground support equipment.
+        - Operated power supplies, oscilloscopes, multimeters, and other diagnostic equipment.
+        - Helped improve a new product design to improve manufacturing repeatability and minimize drift from specifications during transport.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Academic Projects and Coursework
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Smart Home Controller
+      year: C/C++, Qt
+      description:
+        - Developed a smart home controller in C/C++ using the Qt framework.
+        - Designed a responsive GUI using Qt widgets to display real-time smart home information and device states.
+      linkitems:
+        - link: https://github.com/NRITCHI/Smart-Home-Controller
+          linkname: GitHub
+    - title: Heart Disease Prediction Using Machine Learning
+      year: Python
+      description:
+        - Built and optimized machine learning models including Logistic Regression, Random Forest, and XGBoost, achieving an AUC-ROC score of 0.948 for heart disease prediction.
+        - Conducted data preprocessing including robust scaling and one-hot encoding, then visualized key trends using Matplotlib.
+        - Delivered insights through scatter plots, correlation heatmaps, and feature importance analyses to support risk assessment and early intervention.
+      linkitems:
+        - link: https://github.com/NRITCHI/Heart-Disease-Prediction
+          linkname: GitHub
+    - title: BeStep
+      year: Flutter, Dart, Firebase
+      description:
+        - Created a cross-platform social media alternative to BeReal using Flutter, Firebase, and native pedometer libraries.
+        - Built milestone-based photo sharing triggered by step achievements.
+        - Implemented user movement tracking via native pedometer libraries to calculate steps taken and moving status.
+        - Architected the backend with Firebase libraries to authenticate users, store user images, and log crashes.
+      linkitems:
+        - link: https://devpost.com/software/bestep
+          linkname: Devpost
+    - title: Desktop Spell Checker
+      year: Java, OOP, Design Patterns
+      description:
+        - Led a four-person Agile development team using Scrum to create a desktop spell checker that recommends corrections as files are edited.
+        - Organized a product backlog and distributed tasks to team members for each sprint.
+        - Improved code architecture with OOP principles and design patterns while using Git on a shared repository.
+    - title: Multiplayer Online Snake Game
+      year: Networking, Python
+      description:
+        - Developed a multiplayer server-client snake game in Python, managing multiple client connections and server-side game logic.
+        - Added real-time public messaging so clients could broadcast messages to all participants.
+        - Implemented RSA encryption for secure client-server communication.
+        - Designed a communication protocol supporting multi-client connectivity, encrypted data exchange, and new game functions.
+    - title: Scavenger Robot
+      year: C++, ESP microcontrollers, autonomous systems, PID control
+      description:
+        - Developed a WiFi-operated robot tasked with collecting and autonomously distinguishing valuable and waste objects.
+        - Gained experience interfacing with off-the-shelf CAN and I2C components.
+        - Developed robust control structures for reliable autonomous system operation.
+    - title: University T.A. Management Website
+      year: MySQL, PHP, HTML, CSS, JavaScript
+      description:
+        - Developed a web application for managing a Teaching Assistant database using PHP, MySQL, HTML, and CSS.
+        - Built features for data sorting, record insertion, deletion, detailed profile views, conditional image rendering, and course preference display.
+        - Engineered relational database functions for assigning TAs to courses and built a course offering viewer with customizable date ranges.
+        - Followed best practices in code structure, modularity, and documentation for maintainability and readability.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Mountain biking
+    - Skiing and snowboarding
+    - Rock climbing
+    - Automotive performance tuning

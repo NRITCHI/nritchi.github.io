@@ -1,200 +1,186 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "name": "Nathan A. Ritchie",
+    "label": "Engineering and software",
+    "image": "assets/img/nathan-profile.jpg",
+    "email": "nathan.ag.ritchie@gmail.com",
+    "phone": "(647) 964-9581",
+    "url": "https://nritchi.github.io",
+    "summary": "Mechanical and materials engineering and computer science background with experience across data pipelines, dashboards, manufacturing process engineering, QA automation, embedded systems, and software projects.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "",
+      "countryCode": "CA",
+      "region": ""
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "nathan-ritchie-502b6a203",
+        "url": "https://www.linkedin.com/in/nathan-ritchie-502b6a203/"
+      },
+      {
+        "network": "GitHub",
+        "username": "NRITCHI",
+        "url": "https://github.com/NRITCHI"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Metro Vancouver Regional District",
+      "position": "Engineering Technician",
+      "startDate": "2024-10-01",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Developed Power BI dashboards to better communicate energy usage data, saving 10-15 hours of work weekly.",
+        "Built Python data pipelines to automate data refreshes for Power BI dashboards.",
+        "Applied industry-standard measurement and verification techniques to quantify performance of capital projects."
+      ]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Rocket Lab Space Systems",
+      "position": "Business Development Intern",
+      "startDate": "2023-05-01",
+      "endDate": "2023-08-01",
+      "summary": "",
+      "highlights": [
+        "Utilized Python and pandas to investigate product failure modes and refine safe operational envelope figures.",
+        "Automated the development of a product database with Python using PDFQuery to gather historical data that was not centrally recorded.",
+        "Developed preventative maintenance planning and automated work scheduling using Infor LN."
+      ]
+    },
+    {
+      "name": "General Motors",
+      "position": "Manufacturing Process Engineering Intern",
+      "startDate": "2022-05-01",
+      "endDate": "2022-12-01",
+      "summary": "",
+      "highlights": [
+        "Oversaw retooling of an entirely new electric vehicle body shop, including budget and roadblock management.",
+        "Implemented PLC control algorithms to introduce error proofing to production, reducing downtime and improving quality.",
+        "Managed the deployment of new network architecture to improve plant monitoring and control.",
+        "Designed fixtures for factory retooling while balancing the needs of production, management, and engineering stakeholders.",
+        "Developed LEAN manufacturing solutions for damaged parts and downtime scenarios.",
+        "Managed a group of 24 tradespeople by prioritizing work, coordinating contractors, and summarizing work for the next shift."
+      ]
+    },
+    {
+      "name": "Rocket Lab Space Systems",
+      "position": "Engineering Intern",
+      "startDate": "2021-05-01",
+      "endDate": "2021-08-01",
+      "summary": "",
+      "highlights": [
+        "Developed a laser vibrometry QA test, including concept generation, mechanical design, and data processing using Python and pandas.",
+        "Developed product functional testing scripts for thermal vacuum testing.",
+        "Designed and implemented complex qualification testing fixtures involving large assemblies and FEA analysis.",
+        "Frequently participated in soldering and wiring harness building for flight hardware and ground support equipment.",
+        "Operated power supplies, oscilloscopes, multimeters, and other diagnostic equipment.",
+        "Helped improve a new product design to improve manufacturing repeatability and minimize drift from specifications during transport."
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "institution": "University of Western Ontario",
+      "area": "Computer Science, Dean's Honour List",
+      "studyType": "Bachelor of Science",
+      "startDate": "2022-01-01",
+      "endDate": "2025-01-01",
+      "courses": []
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "institution": "University of Western Ontario",
+      "area": "Mechanical and Materials Engineering, Dean's Honour List",
+      "studyType": "Bachelor of Science",
+      "startDate": "2019-01-01",
+      "endDate": "2024-01-01",
+      "courses": []
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Smart Home Controller",
+      "summary": "C/C++ and Qt smart home controller with a responsive GUI for real-time device information and states.",
+      "highlights": [
+        "Developed in C/C++ using the Qt framework.",
+        "Designed Qt widgets for real-time smart home information and device state display."
+      ],
+      "url": "https://github.com/NRITCHI/Smart-Home-Controller"
+    },
+    {
+      "name": "Heart Disease Prediction Using Machine Learning",
+      "summary": "Python machine learning project for heart disease prediction.",
+      "highlights": [
+        "Built and optimized Logistic Regression, Random Forest, and XGBoost models, achieving an AUC-ROC score of 0.948.",
+        "Conducted robust scaling, one-hot encoding, Matplotlib visualization, correlation heatmaps, and feature importance analysis."
+      ],
+      "url": "https://github.com/NRITCHI/Heart-Disease-Prediction"
+    },
+    {
+      "name": "BeStep",
+      "summary": "Cross-platform social media alternative to BeReal using Flutter, Dart, Firebase, and native pedometer libraries.",
+      "highlights": [
+        "Built milestone-based photo sharing triggered by step achievements.",
+        "Implemented movement tracking and Firebase authentication, image storage, and crash logging."
+      ],
+      "url": "https://devpost.com/software/bestep"
+    },
+    {
+      "name": "Desktop Spell Checker",
+      "summary": "Java desktop spell checker built by a four-person Agile team.",
+      "highlights": [
+        "Led Scrum process, managed product backlog, and distributed sprint tasks.",
+        "Improved architecture using OOP principles, design patterns, and Git collaboration."
+      ]
+    },
+    {
+      "name": "Multiplayer Online Snake Game",
+      "summary": "Python server-client snake game with networking and RSA-encrypted communication.",
+      "highlights": [
+        "Managed multiple client connections and server-side game logic.",
+        "Added real-time public messaging and encrypted data exchange."
+      ]
+    },
+    {
+      "name": "Scavenger Robot",
+      "summary": "WiFi-operated autonomous robot using C++, ESP microcontrollers, CAN/I2C components, and PID control.",
+      "highlights": [
+        "Built remote operation and autonomous object classification behavior.",
+        "Developed robust control structures for reliable autonomous operation."
+      ]
+    },
+    {
+      "name": "University T.A. Management Website",
+      "summary": "PHP, MySQL, HTML, CSS, and JavaScript web application for managing a Teaching Assistant database.",
+      "highlights": [
+        "Built sorting, insertion, deletion, profile views, conditional image rendering, course preferences, TA-course assignments, and course offering views.",
+        "Focused on modularity, maintainability, and documentation."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "level": "Experienced",
+      "keywords": ["Java", "Python", "C/C++", "MATLAB", "SQL", "JavaScript", "PHP"]
+    },
+    {
+      "name": "Engineering Systems",
+      "level": "Experienced",
+      "keywords": ["UNIX-based systems", "Real-time microcontrollers", "Electrical design", "Component selection", "PCB assembly"]
+    },
+    {
+      "name": "Data and Automation",
+      "level": "Experienced",
+      "keywords": ["Power BI", "Python data pipelines", "Quality control scripts", "Test fixtures", "Measurement and verification"]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Other Interests",
+      "keywords": ["Mountain biking", "Skiing and snowboarding", "Rock climbing", "Automotive performance tuning"]
     }
   ]
 }
